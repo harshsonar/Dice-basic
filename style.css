@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 70;
+    color: white;
+    margin-top: 20px;
+}
+
+.heading h1{
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    margin-top: 15px;
+}
+
+.dice{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.dices{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.dices p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dices img{
+    height: 250px;
+}
+
+.btn{
+    margin-top: 40px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    height: 100%;
+    width: 130px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    background-color: rgb(232, 232, 232);
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+@media (max-width: 450px) {
+    
+    .name{
+        margin-top: 20;
+        font-size: 16px;
+    }
+
+    .heading h1{
+        height: 40px;
+        font-size: 33px;
+        margin: 15px;
+        margin-bottom: 15px;
+    }
+    .dice{
+        margin-top: 30px;
+    }
+
+    .dices{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .dices img{
+        display: flex;
+        height: 160px;
+    }
+
+    .btn{
+        height: 70px;
+    }
+    .btn button{
+        height: 45px;
+        width: 90px;
+        font-size: 18px;
+    }
+
+    footer{
+        margin-top: 60px;
+        font-size: 13px;
+    }
+
+}
